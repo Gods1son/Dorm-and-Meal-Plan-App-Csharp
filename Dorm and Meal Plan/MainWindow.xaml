@@ -1,0 +1,33 @@
+﻿<Window x:Class="Dorm_and_Meal_Plan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dorm_and_Meal_Plan"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Background="DarkTurquoise">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label Name="lblHeader" Content="Dorm and Meal Plan Calculator" FontSize="22" Grid.ColumnSpan="2" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <RadioButton Name="rbAllen" IsChecked="{Binding Allen,Mode=TwoWay}" Margin="10" Content="Allen Hall" GroupName="Hall" Grid.Row="1" FontSize="23" VerticalContentAlignment="Center"/>
+        <RadioButton Name="rbPike" IsChecked="{Binding Pike,Mode=TwoWay}" Margin="10" Content="Pike Hall" GroupName="Hall" Grid.Row="2" FontSize="23" VerticalContentAlignment="Center"/>
+        <RadioButton Name="rbFarthing" IsChecked="{Binding Farthing,Mode=TwoWay}" Margin="10" Content="Farthing Hall" GroupName="Hall" Grid.Row="3" FontSize="23" VerticalContentAlignment="Center"/>
+        <RadioButton Name="rbUniversity" IsChecked="{Binding University,Mode=TwoWay}" Margin="10" Content="University suites" GroupName="Hall" Grid.Row="4" FontSize="23" VerticalContentAlignment="Center"/>
+        <RadioButton Name="rb7Meals" IsChecked="{Binding SevenMeals,Mode=TwoWay}" Content="7 meals per week" GroupName="Meal" Grid.Row="1" Grid.Column="1" FontSize="23" VerticalContentAlignment="Center"/>
+        <RadioButton Name="rb14Meals" IsChecked="{Binding FourteenMeals,Mode=TwoWay}" Content="14 meals per week" GroupName="Meal" Grid.Row="2" Grid.Column="1" FontSize="23" VerticalContentAlignment="Center"/>
+        <RadioButton Name="rbUnlimited" IsChecked="{Binding UnlimitedMeals,Mode=TwoWay}" Content="Unlimited meals" GroupName="Meal" Grid.Row="3" Grid.Column="1" FontSize="23" VerticalContentAlignment="Center"/>
+        <Button Name="btnCalc" Content="Calculate" Grid.Row="5" Grid.ColumnSpan="1" Margin="5" Cursor="Hand" FontSize="20" Click="btnCalc_Click"/>
+        <Button Name="btnClear" Content="Clear All" Grid.Row="5" Grid.Column="1" Margin="5" Cursor="Hand" FontSize="20" Click="btnClear_Click"/>
+    </Grid>
+</Window>

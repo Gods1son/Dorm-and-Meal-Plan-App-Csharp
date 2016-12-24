@@ -1,0 +1,16 @@
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\bin\Debug\Dorm and Meal Plan.exe.config
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\bin\Debug\Dorm and Meal Plan.exe
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\bin\Debug\Dorm and Meal Plan.pdb
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm and Meal Plan.csprojResolveAssemblyReference.cache
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Cost.g.cs
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\MainWindow.g.cs
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\App.g.cs
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm and Meal Plan_MarkupCompile.cache
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm and Meal Plan_MarkupCompile.lref
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Cost.baml
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\MainWindow.baml
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm and Meal Plan.g.resources
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm_and_Meal_Plan.Properties.Resources.resources
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm and Meal Plan.csproj.GenerateResource.Cache
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm and Meal Plan.exe
+c:\users\gods1\documents\visual studio 2015\Projects\Dorm and Meal Plan\Dorm and Meal Plan\obj\Debug\Dorm and Meal Plan.pdb
